@@ -1,10 +1,10 @@
 <template>
     <div
         :class="[
-      'flex items-center justify-center bg-gray-200',
-      'text-gray-500 font-medium text-sm',
-      className
-    ]"
+            'flex items-center justify-center bg-gray-200',
+            'text-gray-500 font-medium text-sm',
+            className
+        ]"
     >
         {{ text || 'Placeholder' }}
     </div>

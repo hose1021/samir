@@ -67,7 +67,9 @@
                                     <Icon icon="mdi:phone" class="h-6 w-6 text-primary" />
                                 </div>
                                 <div class="ml-3">
-                                    <h3 class="text-lg font-medium text-secondary">{{ $t('contact.info.phone') }}</h3>
+                                    <h3 class="text-lg font-medium text-secondary">
+                                        {{ $t('contact.info.phone') }}
+                                    </h3>
                                     <p class="mt-1 text-gray-600">+994 12 345 67 89</p>
                                 </div>
                             </div>
@@ -76,7 +78,9 @@
                                     <Icon icon="mdi:email-outline" class="h-6 w-6 text-primary" />
                                 </div>
                                 <div class="ml-3">
-                                    <h3 class="text-lg font-medium text-secondary">{{ $t('contact.info.email') }}</h3>
+                                    <h3 class="text-lg font-medium text-secondary">
+                                        {{ $t('contact.info.email') }}
+                                    </h3>
                                     <p class="mt-1 text-gray-600">info@hse.az</p>
                                 </div>
                             </div>
@@ -88,7 +92,9 @@
                                     <h3 class="text-lg font-medium text-secondary">
                                         {{ $t('contact.info.address') }}
                                     </h3>
-                                    <p class="mt-1 text-gray-600">{{ $t('contact.info.addressText') }}</p>
+                                    <p class="mt-1 text-gray-600">
+                                        {{ $t('contact.info.addressText') }}
+                                    </p>
                                 </div>
                             </div>
                         </div>

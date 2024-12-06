@@ -52,6 +52,10 @@ const messages = {
             links: 'Quick Links',
             follow: 'Follow Us',
             rights: '© {year} Health and Safety Azerbaijan. All rights reserved.'
+        },
+        seo: {
+            title: 'Health and Safety Azerbaijan - Professional HSE Consulting Services',
+            description: 'Expert health and safety consulting services in Azerbaijan. Offering risk assessments, safety training, and compliance management for businesses.'
         }
     },
     ru: {
@@ -63,7 +67,8 @@ const messages = {
         },
         hero: {
             title: 'Профессиональные решения по охране труда',
-            subtitle: 'Защита вашего рабочего места и сотрудников комплексными услугами безопасности',
+            subtitle:
+                'Защита вашего рабочего места и сотрудников комплексными услугами безопасности',
             cta: 'Начать'
         },
         services: {
@@ -105,6 +110,10 @@ const messages = {
             links: 'Быстрые ссылки',
             follow: 'Следите за нами',
             rights: '© {year} Health and Safety Azerbaijan. Все права защищены.'
+        },
+        seo: {
+            title: 'Health and Safety Azerbaijan - Профессиональные консультационные услуги по ОТ и ТБ',
+            description: 'Экспертные консультационные услуги по охране труда и технике безопасности в Азербайджане. Предлагаем оценку рисков, обучение по безопасности и управление соответствием для бизнеса.'
         }
     },
     az: {
@@ -116,7 +125,8 @@ const messages = {
         },
         hero: {
             title: 'Peşəkar Sağlamlıq və Təhlükəsizlik Həlləri',
-            subtitle: 'İş yerinizi və işçilərinizi hərtərəfli təhlükəsizlik xidmətləri ilə qoruyuruq',
+            subtitle:
+                'İş yerinizi və işçilərinizi hərtərəfli təhlükəsizlik xidmətləri ilə qoruyuruq',
             cta: 'Başla'
         },
         services: {
@@ -158,6 +168,10 @@ const messages = {
             links: 'Sürətli keçidlər',
             follow: 'Bizi izləyin',
             rights: '© {year} Health and Safety Azerbaijan. Bütün hüquqlar qorunur.'
+        },
+        seo: {
+            title: 'Health and Safety Azerbaijan - Peşəkar SƏTƏM Məsləhət Xidmətləri',
+            description: 'Azərbaycanda ekspert səviyyəli sağlamlıq və təhlükəsizlik məsləhət xidmətləri. Biznes üçün risk qiymətləndirmələri, təhlükəsizlik təlimi və uyğunluq idarəetməsi təklif edirik.'
         }
     }
 }

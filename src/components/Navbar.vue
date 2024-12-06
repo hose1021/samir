@@ -9,9 +9,11 @@
                 </div>
 
                 <div class="hidden md:flex items-center space-x-8">
-                    <a href="#home" class="text-secondary hover:text-primary px-3 py-2 text-sm font-medium">{{
-                            $t('nav.home')
-                        }}</a>
+                    <a
+                        href="#home"
+                        class="text-secondary hover:text-primary px-3 py-2 text-sm font-medium"
+                    >{{ $t('nav.home') }}</a
+                    >
                     <a
                         href="#services"
                         class="text-secondary hover:text-primary px-3 py-2 text-sm font-medium"

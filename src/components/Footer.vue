@@ -15,7 +15,9 @@
                     <h3 class="text-white font-semibold mb-4">{{ $t('footer.links') }}</h3>
                     <ul class="space-y-2">
                         <li>
-                            <a href="#home" class="text-gray-300 hover:text-primary">{{ $t('nav.home') }}</a>
+                            <a href="#home" class="text-gray-300 hover:text-primary">{{
+                                    $t('nav.home')
+                                }}</a>
                         </li>
                         <li>
                             <a href="#services" class="text-gray-300 hover:text-primary">{{
@@ -23,7 +25,9 @@
                                 }}</a>
                         </li>
                         <li>
-                            <a href="#about" class="text-gray-300 hover:text-primary">{{ $t('nav.about') }}</a>
+                            <a href="#about" class="text-gray-300 hover:text-primary">{{
+                                    $t('nav.about')
+                                }}</a>
                         </li>
                         <li>
                             <a href="#contact" class="text-gray-300 hover:text-primary">{{
