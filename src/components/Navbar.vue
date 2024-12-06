@@ -1,0 +1,72 @@
+<template>
+  <nav class="bg-white shadow-lg fixed w-full z-50">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="flex justify-between h-16">
+        <div class="flex items-center">
+          <div class="flex-shrink-0">
+            <PlaceholderImage text="LOGO" className="h-12 w-32" />
+          </div>
+        </div>
+        
+        <div class="hidden md:flex items-center space-x-8">
+          <a href="#home" class="text-secondary hover:text-primary px-3 py-2 text-sm font-medium">{{ $t('nav.home') }}</a>
+          <a href="#services" class="text-secondary hover:text-primary px-3 py-2 text-sm font-medium">{{ $t('nav.services') }}</a>
+          <a href="#about" class="text-secondary hover:text-primary px-3 py-2 text-sm font-medium">{{ $t('nav.about') }}</a>
+          <a href="#contact" class="text-secondary hover:text-primary px-3 py-2 text-sm font-medium">{{ $t('nav.contact') }}</a>
+          <LanguageSwitcher />
+        </div>
+
+        <!-- Mobile menu button -->
+        <div class="flex items-center md:hidden">
+          <button
+            @click="isOpen = !isOpen"
+            class="inline-flex items-center justify-center p-2 rounded-md text-secondary hover:text-primary focus:outline-none"
+          >
+            <span class="sr-only">Open main menu</span>
+            <svg
+              :class="{'hidden': isOpen, 'block': !isOpen }"
+              class="h-6 w-6"
+              xmlns="http://www.w3.org/2000/svg"
+              fill="none"
+              viewBox="0 0 24 24"
+              stroke="currentColor"
+            >
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16" />
+            </svg>
+            <svg
+              :class="{'block': isOpen, 'hidden': !isOpen }"
+              class="h-6 w-6"
+              xmlns="http://www.w3.org/2000/svg"
+              fill="none"
+              viewBox="0 0 24 24"
+              stroke="currentColor"
+            >
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12" />
+            </svg>
+          </button>
+        </div>
+      </div>
+    </div>
+
+    <!-- Mobile menu -->
+    <div :class="{'block': isOpen, 'hidden': !isOpen}" class="md:hidden">
+      <div class="px-2 pt-2 pb-3 space-y-1 sm:px-3">
+        <a href="#home" class="text-secondary hover:text-primary block px-3 py-2 text-base font-medium">{{ $t('nav.home') }}</a>
+        <a href="#services" class="text-secondary hover:text-primary block px-3 py-2 text-base font-medium">{{ $t('nav.services') }}</a>
+        <a href="#about" class="text-secondary hover:text-primary block px-3 py-2 text-base font-medium">{{ $t('nav.about') }}</a>
+        <a href="#contact" class="text-secondary hover:text-primary block px-3 py-2 text-base font-medium">{{ $t('nav.contact') }}</a>
+        <div class="px-3 py-2">
+          <LanguageSwitcher />
+        </div>
+      </div>
+    </div>
+  </nav>
+</template>
+
+<script setup>
+import { ref } from 'vue'
+import PlaceholderImage from './PlaceholderImage.vue'
+import LanguageSwitcher from './LanguageSwitcher.vue'
+
+const isOpen = ref(false)
+</script> 
