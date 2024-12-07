@@ -65,7 +65,3 @@
         updateMetaTags()
     })
 </script>
-
-<template>
-    <!-- This component doesn't render anything -->
-</template> 

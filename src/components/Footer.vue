@@ -1,10 +1,15 @@
 <template>
-    <footer class="bg-secondary">
-        <div class="max-w-7xl mx-auto py-12 px-4 sm:px-6 lg:px-8">
-            <div class="grid grid-cols-1 md:grid-cols-4 gap-8">
+    <footer class="bg-secondary py-12">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div
+                v-motion
+                :initial="{ opacity: 0, y: 50 }"
+                :enter="{ opacity: 1, y: 0, transition: { duration: 800 } }"
+                class="grid grid-cols-1 md:grid-cols-3 gap-8"
+            >
                 <!-- Company Info -->
                 <div class="col-span-1 md:col-span-2">
-                    <PlaceholderImage text="LOGO" className="h-12 w-32 bg-gray-700 text-white" />
+                    <img src="../assets/logo.png" class="h-16" alt="LOGO" />
                     <p class="mt-4 text-gray-300">
                         {{ $t('about.desc') }}
                     </p>
@@ -105,6 +110,4 @@
     </footer>
 </template>
 
-<script setup>
-    import PlaceholderImage from './PlaceholderImage.vue'
-</script>
+<script setup></script>

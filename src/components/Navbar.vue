@@ -1,11 +1,18 @@
 <template>
     <nav class="bg-white shadow-lg fixed w-full z-50">
-        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div
+            v-motion
+            :initial="{ opacity: 0, y: -20 }"
+            :enter="{ opacity: 1, y: 0, transition: { duration: 800 } }"
+            class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8"
+        >
             <div class="flex justify-between h-16">
-                <div class="flex items-center">
+                <div class="flex items-center bg-gray-700 rounded p-1 m-1">
                     <div class="flex-shrink-0">
-                        <PlaceholderImage text="LOGO" className="h-12 w-32" />
+                        <img src="../assets/logo.png" class="h-12" alt="LOGO" />
                     </div>
+                    <span class="text-primary font-semibold">Pro Safety</span>
+                    <span class="text-white ml-1">Azerbaijan</span>
                 </div>
 
                 <div class="hidden md:flex items-center space-x-8">
@@ -78,7 +85,6 @@
 
 <script setup>
     import { ref } from 'vue'
-    import PlaceholderImage from './PlaceholderImage.vue'
     import LanguageSwitcher from './LanguageSwitcher.vue'
 
     const isOpen = ref(false)

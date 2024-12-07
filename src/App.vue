@@ -16,7 +16,12 @@
         :title="t('seo.title')"
         :description="t('seo.description')"
     />
-    <div class="min-h-screen bg-white">
+    <div
+        v-motion
+        :initial="{ opacity: 0 }"
+        :enter="{ opacity: 1, transition: { duration: 500 } }"
+        class="min-h-screen bg-white"
+    >
         <Navbar />
         <Hero />
         <Services />
