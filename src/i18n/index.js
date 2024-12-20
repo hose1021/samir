@@ -50,7 +50,7 @@ const messages = {
             }
         },
         why: {
-            title: 'WHY PROSAFETY AZERBAIJAN?',
+            title: 'Why ProSafety Azerbaijan?',
             items: {
                 experience: {
                     title: 'Experience',
@@ -103,7 +103,7 @@ const messages = {
             desc: 'ОХРАНА ТРУДА – ЭТО КЛЮЧЕВОЙ ФАКТОР КОМПАНИИ. В ProSafety Azerbaijan мы понимаем, что охрана труда и техника безопасности являются основополагающими для успеха любой организации. Наша миссия – помочь бизнесу создавать и поддерживать безопасные и здоровые рабочие условия, защищая их самые ценные ресурсы – людей. Мы верим, что сильная культура охраны труда и техники безопасности – это не только нормативное требование, но и ключевой фактор эффективности бизнеса. Сотрудничая с нами, вы можете снизить риски, улучшить моральный дух сотрудников и повысить производительность.'
         },
         services: {
-            title: 'ЧТО МЫ ПРЕДЛАГАЕМ',
+            title: 'Что мы предлагаем',
             items: {
                 policies: {
                     title: 'Разработка политик и процедур',
@@ -128,7 +128,7 @@ const messages = {
             }
         },
         why: {
-            title: 'ПОЧЕМУ PROSAFETY AZERBAIJAN?',
+            title: 'Почему ProSafety Azerbaijan?',
             items: {
                 experience: {
                     title: 'Опыт',
@@ -149,7 +149,7 @@ const messages = {
             }
         },
         contact: {
-            title: 'ДАВАЙТЕ СОТРУДНИЧАТЬ',
+            title: 'Давайте сотрудничать',
             social: 'Посетите наши социальные сети:',
             email: 'Напишите нам:',
             phone: 'Позвоните нам (WhatsApp):',
@@ -221,7 +221,7 @@ const messages = {
             desc: 'ƏMƏYIN TƏHLÜKƏSIZLIYI ŞIRKƏTIN ƏSAS FAKTORIDIR. ProSafety Azerbaijan olaraq, əməyin mühafizəsi və təhlükəsizlik texnikasının hər bir təşkilatın uğuru üçün fundamental olduğunu anlayırıq. Missiyamız biznesə təhlükəsiz və sağlam iş şəraiti yaratmaq və qorumaqda kömək etmək, onların ən dəyərli resurslarını - insanları qorumaqdır. İnanırıq ki, güclü əməyin mühafizəsi və təhlükəsizlik mədəniyyəti təkcə tənzimləyici tələb deyil, həm də biznes səmərəliliyinin əsas amilidir.'
         },
         why: {
-            title: 'NIYƏ PROSAFETY AZERBAIJAN?',
+            title: 'Niyə ProSafety Azerbaijan?',
             items: {
                 experience: {
                     title: 'Təcrübə',
