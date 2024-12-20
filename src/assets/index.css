@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Geist');
+@import url('https://fonts.googleapis.com/css?family=Inter');
 @import 'base.css';
 
 @tailwind base;
@@ -20,7 +20,7 @@
 }
 
 * {
-    font-family: 'Geist', sans-serif;
+    font-family: 'Inter', sans-serif;
 }
 
 @layer utilities {
