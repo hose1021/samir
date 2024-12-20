@@ -22,14 +22,24 @@
                     >{{ $t('nav.home') }}</a
                     >
                     <a
+                        href="#about"
+                        class="text-secondary hover:text-primary px-3 py-2 text-sm font-medium"
+                    >{{ $t('nav.about') }}</a
+                    >
+                    <a
+                        href="#purpose"
+                        class="text-secondary hover:text-primary px-3 py-2 text-sm font-medium"
+                    >{{ $t('nav.purpose') }}</a
+                    >
+                    <a
                         href="#services"
                         class="text-secondary hover:text-primary px-3 py-2 text-sm font-medium"
                     >{{ $t('nav.services') }}</a
                     >
                     <a
-                        href="#about"
+                        href="#why"
                         class="text-secondary hover:text-primary px-3 py-2 text-sm font-medium"
-                    >{{ $t('nav.about') }}</a
+                    >{{ $t('nav.why') }}</a
                     >
                     <a
                         href="#contact"
@@ -61,14 +71,24 @@
                 >{{ $t('nav.home') }}</a
                 >
                 <a
+                    href="#about"
+                    class="text-secondary hover:text-primary block px-3 py-2 text-base font-medium"
+                >{{ $t('nav.about') }}</a
+                >
+                <a
+                    href="#purpose"
+                    class="text-secondary hover:text-primary block px-3 py-2 text-base font-medium"
+                >{{ $t('nav.purpose') }}</a
+                >
+                <a
                     href="#services"
                     class="text-secondary hover:text-primary block px-3 py-2 text-base font-medium"
                 >{{ $t('nav.services') }}</a
                 >
                 <a
-                    href="#about"
+                    href="#why"
                     class="text-secondary hover:text-primary block px-3 py-2 text-base font-medium"
-                >{{ $t('nav.about') }}</a
+                >{{ $t('nav.why') }}</a
                 >
                 <a
                     href="#contact"
