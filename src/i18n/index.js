@@ -27,8 +27,8 @@ const messages = {
         services: {
             title: 'WHAT WE OFFER',
             subtitle: 'Comprehensive health and safety solutions for your business',
-            
-                policies: {
+
+            policies: {
                     title: 'Policy and Procedure Development',
                     desc: 'Creating and updating health and safety policies and procedures tailored to specific organizational needs.'
                 },
@@ -48,7 +48,7 @@ const messages = {
                     title: 'Safety Management Systems',
                     desc: 'Development and implementation of comprehensive safety management systems tailored to organizational needs.'
                 }
-            
+
         },
         why: {
             title: 'Why ProSafety Azerbaijan?',
@@ -77,7 +77,6 @@ const messages = {
             email: 'Write to us:',
             phone: 'Call us (WhatsApp):',
             phoneNumber: '(050) 278 98 88',
-            emailAddress: 'hse@prosafetyazerbaijan.com'
         }
     },
     ru: {
@@ -156,7 +155,6 @@ const messages = {
             email: 'Напишите нам:',
             phone: 'Позвоните нам (WhatsApp):',
             phoneNumber: '(050) 278 98 88',
-            emailAddress: 'hse@prosafetyazerbaijan.com'
         }
     },
     az: {

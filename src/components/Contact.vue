@@ -33,7 +33,7 @@
                                 <h3 class="text-lg font-medium text-gray-50">
                                     {{ $t('contact.email') }}
                                 </h3>
-                                <p class="mt-1 text-gray-300">{{ $t('contact.emailAddress') }}</p>
+                                <p class="mt-1 text-gray-300">hse@prosafetyazerbaijan.com</p>
                             </div>
                         </div>
                     </div>
