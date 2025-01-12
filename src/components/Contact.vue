@@ -13,27 +13,30 @@
                     </div>
                     
                     <div class="flex flex-col sm:flex-row md:flex-col lg:flex-row gap-6 md:gap-8">
-                        <div class="flex items-center justify-center md:justify-start">
-                            <div class="flex-shrink-0">
-                                <Icon icon="tabler:phone" class="h-6 w-6 text-primary" />
+                        <div
+                            class="mx-auto justify-center space-y-4 md:flex md:space-y-0 md:space-x-6 md:justify-start">
+                            <div class="flex items-center md:justify-start">
+                                <div class="flex-shrink-0">
+                                    <Icon icon="tabler:phone" class="h-6 w-6 text-primary" />
+                                </div>
+                                <div class="ml-3">
+                                    <h3 class="text-lg font-medium text-gray-50">
+                                        {{ $t('contact.phone') }}
+                                    </h3>
+                                    <p class="mt-1 text-gray-300">{{ $t('contact.phoneNumber') }}</p>
+                                </div>
                             </div>
-                            <div class="ml-3">
-                                <h3 class="text-lg font-medium text-gray-50">
-                                    {{ $t('contact.phone') }}
-                                </h3>
-                                <p class="mt-1 text-gray-300">{{ $t('contact.phoneNumber') }}</p>
-                            </div>
-                        </div>
-                        
-                        <div class="flex items-center justify-center md:justify-start">
-                            <div class="flex-shrink-0">
-                                <Icon icon="tabler:mail" class="h-6 w-6 text-primary" />
-                            </div>
-                            <div class="ml-3">
-                                <h3 class="text-lg font-medium text-gray-50">
-                                    {{ $t('contact.email') }}
-                                </h3>
-                                <p class="mt-1 text-gray-300">hse@prosafetyazerbaijan.com</p>
+
+                            <div class="flex items-center md:justify-start">
+                                <div class="flex-shrink-0">
+                                    <Icon icon="tabler:mail" class="h-6 w-6 text-primary" />
+                                </div>
+                                <div class="ml-3">
+                                    <h3 class="text-lg font-medium text-gray-50">
+                                        {{ $t('contact.email') }}
+                                    </h3>
+                                    <p class="mt-1 text-gray-300">hse@prosafetyazerbaijan.com</p>
+                                </div>
                             </div>
                         </div>
                     </div>
