@@ -20,9 +20,10 @@
                     class="mt-10 lg:mt-0 slide-from-right"
                 >
                     <div class="aspect-w-16 aspect-h-9">
-                        <PlaceholderImage
-                            text="About Image"
-                            className="rounded-lg shadow-lg w-full h-full object-cover"
+                        <img
+                            src="../assets/about.jpg"
+                            class="rounded-lg shadow-lg w-full h-full object-cover"
+                            alt="About Image"
                         />
                     </div>
                 </div>
@@ -32,7 +33,6 @@
 </template>
 
 <script setup>
-    import PlaceholderImage from './PlaceholderImage.vue'
     import { useScrollAnimation } from '../composables/useScrollAnimation'
 
     const leftColumnRef = useScrollAnimation()

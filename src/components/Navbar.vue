@@ -63,43 +63,45 @@
         </div>
 
         <!-- Mobile menu -->
-        <div :class="{ block: isOpen, hidden: !isOpen }" class="md:hidden">
-            <div class="px-2 pt-2 pb-3 space-y-1 sm:px-3">
-                <a
-                    href="#home"
-                    class="text-secondary hover:text-primary block px-3 py-2 text-base font-medium"
-                >{{ $t('nav.home') }}</a
-                >
-                <a
-                    href="#about"
-                    class="text-secondary hover:text-primary block px-3 py-2 text-base font-medium"
-                >{{ $t('nav.about') }}</a
-                >
-                <a
-                    href="#purpose"
-                    class="text-secondary hover:text-primary block px-3 py-2 text-base font-medium"
-                >{{ $t('nav.purpose') }}</a
-                >
-                <a
-                    href="#services"
-                    class="text-secondary hover:text-primary block px-3 py-2 text-base font-medium"
-                >{{ $t('nav.services') }}</a
-                >
-                <a
-                    href="#why"
-                    class="text-secondary hover:text-primary block px-3 py-2 text-base font-medium"
-                >{{ $t('nav.why') }}</a
-                >
-                <a
-                    href="#contact"
-                    class="text-secondary hover:text-primary block px-3 py-2 text-base font-medium"
-                >{{ $t('nav.contact') }}</a
-                >
-                <div class="px-3 py-2">
-                    <LanguageSwitcher />
+        <transition name="slide-fade">
+            <div v-show="isOpen" class="md:hidden">
+                <div class="px-2 pt-2 pb-3 space-y-1 sm:px-3">
+                    <a
+                        href="#home"
+                        class="text-secondary hover:text-primary block px-3 py-2 text-base font-medium"
+                    >{{ $t('nav.home') }}</a
+                    >
+                    <a
+                        href="#about"
+                        class="text-secondary hover:text-primary block px-3 py-2 text-base font-medium"
+                    >{{ $t('nav.about') }}</a
+                    >
+                    <a
+                        href="#purpose"
+                        class="text-secondary hover:text-primary block px-3 py-2 text-base font-medium"
+                    >{{ $t('nav.purpose') }}</a
+                    >
+                    <a
+                        href="#services"
+                        class="text-secondary hover:text-primary block px-3 py-2 text-base font-medium"
+                    >{{ $t('nav.services') }}</a
+                    >
+                    <a
+                        href="#why"
+                        class="text-secondary hover:text-primary block px-3 py-2 text-base font-medium"
+                    >{{ $t('nav.why') }}</a
+                    >
+                    <a
+                        href="#contact"
+                        class="text-secondary hover:text-primary block px-3 py-2 text-base font-medium"
+                    >{{ $t('nav.contact') }}</a
+                    >
+                    <div class="px-3 py-2">
+                        <LanguageSwitcher />
+                    </div>
                 </div>
             </div>
-        </div>
+        </transition>
     </nav>
 </template>
 
@@ -109,3 +111,14 @@
 
     const isOpen = ref(false)
 </script>
+
+<style>
+    .slide-fade-enter-active, .slide-fade-leave-active {
+        transition: all 0.3s ease;
+    }
+
+    .slide-fade-enter, .slide-fade-leave-to {
+        transform: translateY(-10px);
+        opacity: 0;
+    }
+</style>

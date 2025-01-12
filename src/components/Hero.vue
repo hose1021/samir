@@ -1,7 +1,13 @@
 <template>
     <div class="relative bg-secondary pt-16">
         <div class="absolute inset-0 overflow-hidden">
-            <PlaceholderImage text="Hero Background" className="w-full h-full opacity-10" />
+            <img
+                src="../assets/heroBackground.jpg"
+                title="Purpose Image"
+                class="w-full h-full opacity-10 object-cover object-top"
+                alt="Purpose Image"
+            />
+            <!--            <PlaceholderImage text="Hero Background" className="w-full h-full opacity-10" />-->
         </div>
         <div class="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-24">
             <div class="text-center">
@@ -39,6 +45,4 @@
     </div>
 </template>
 
-<script setup>
-    import PlaceholderImage from './PlaceholderImage.vue'
-</script>
+<script setup></script>
