@@ -27,28 +27,30 @@ const messages = {
         services: {
             title: 'WHAT WE OFFER',
             subtitle: 'Comprehensive health and safety solutions for your business',
-
+            risk: {
+                title: 'Risk Assessment',
+                desc: 'Identifying and evaluating potential hazards in the workplace and conducting health and safety audits.'
+            },
             policies: {
-                    title: 'Policy and Procedure Development',
-                    desc: 'Creating and updating health and safety policies and procedures tailored to specific organizational needs.'
-                },
-                training: {
-                    title: 'Training and Education',
-                    desc: 'Conducting employee training programs on health and safety practices.'
-                },
-                compliance: {
-                    title: 'Regulatory Compliance Assistance',
-                    desc: 'Helping businesses comply with local, national, and international health and safety regulations. Assistance in incident investigations and inspections by local authorities.'
-                },
-                audit: {
-                    title: 'Audits and Inspections',
-                    desc: 'Comprehensive reviews of health and safety practices to ensure regulatory compliance, identify gaps, and provide practical recommendations.'
-                },
-                systems: {
-                    title: 'Safety Management Systems',
-                    desc: 'Development and implementation of comprehensive safety management systems tailored to organizational needs.'
-                }
-
+                title: 'Policy and Procedure Development',
+                desc: 'Creating and updating health and safety policies and procedures tailored to specific organizational needs.'
+            },
+            training: {
+                title: 'Training and Education',
+                desc: 'Conducting employee training programs on health and safety practices.'
+            },
+            compliance: {
+                title: 'Regulatory Compliance Assistance',
+                desc: 'Helping businesses comply with local, national, and international health and safety regulations. Assistance in incident investigations and inspections by local authorities.'
+            },
+            audit: {
+                title: 'Audits and Inspections',
+                desc: 'Comprehensive reviews of health and safety practices to ensure regulatory compliance, identify gaps, and provide practical recommendations.'
+            },
+            systems: {
+                title: 'Safety Management Systems',
+                desc: 'Development and implementation of comprehensive safety management systems tailored to organizational needs.'
+            }
         },
         why: {
             title: 'Why ProSafety Azerbaijan?',
@@ -120,6 +122,10 @@ const messages = {
             title: 'Что мы предлагаем',
             subtitle: 'Комплексные решения по охране труда и технике безопасности для вашего бизнеса',
             items: {
+                risk: {
+                    title: 'Оценка рисков',
+                    desc: 'Оценка потенциальных опасностей на рабочем месте и проведение аудитов по охране труда.'
+                },
                 policies: {
                     title: 'Разработка политик и процедур',
                     desc: 'Создание и обновление политик и процедур по охране труда и технике безопасности, адаптированных к конкретным потребностям организации.'
