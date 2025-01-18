@@ -77,7 +77,20 @@ const messages = {
             email: 'Write to us:',
             phone: 'Call us (WhatsApp):',
             phoneNumber: '(050) 278 98 88',
-        }
+        },
+        footer: {
+            links: 'Quick links',
+            follow: 'Follow us',
+            rights: '© {year} ProSafety Azerbaijan. All rights reserved.'
+        },
+        seo: {
+            title: 'ProSafety Azerbaijan - Expert Health and Safety Consulting Services',
+            description: 'Expert health and safety consulting services in Azerbaijan. We offer risk assessment, safety training, and compliance management for businesses.'
+        },
+        purpose: {
+            title: 'Purpose',
+            desc: 'OCCUPATIONAL SAFETY IS A KEY FACTOR OF THE COMPANY. At ProSafety Azerbaijan, we understand that occupational health and safety are fundamental to the success of any organization. Our mission is to help businesses create and maintain safe and healthy working conditions, protecting their most valuable resources - people. We believe that a strong occupational health and safety culture is not only a regulatory requirement but also a key factor in business efficiency. By working with us, you can reduce risks, improve employee morale, and increase productivity.'
+        },
     },
     ru: {
         nav: {
@@ -155,7 +168,20 @@ const messages = {
             email: 'Напишите нам:',
             phone: 'Позвоните нам (WhatsApp):',
             phoneNumber: '(050) 278 98 88',
-        }
+        },
+        footer: {
+            links: 'Быстрые ссылки',
+            follow: 'Следите за нами',
+            rights: '© {year} ProSafety Azerbaijan. Все права защищены.'
+        },
+        seo: {
+            title: 'ProSafety Azerbaijan - Экспертные услуги по охране труда и технике безопасности',
+            description: 'Экспертные услуги по охране труда и технике безопасности в Азербайджане. Мы предлагаем оценку рисков, обучение по охране труда и управление соответствием нормативным требованиям для бизнеса.'
+        },
+        purpose: {
+            title: 'Цель',
+            desc: 'ОХРАНА ТРУДА – ЭТО КЛЮЧЕВОЙ ФАКТОР КОМПАНИИ. В ProSafety Azerbaijan мы понимаем, что охрана труда и техника безопасности являются основополагающими для успеха любой организации. Наша миссия – помочь бизнесу создавать и поддерживать безопасные и здоровые рабочие условия, защищая их самые ценные ресурсы – людей. Мы верим, что сильная культура охраны труда и техники безопасности – это не только нормативное требование, но и ключевой фактор эффективности бизнеса. Сотрудничая с нами, вы можете снизить риски, улучшить моральный дух сотрудников и повысить производительность.'
+        },
     },
     az: {
         nav: {
