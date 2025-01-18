@@ -75,6 +75,7 @@ const messages = {
             title: "LET'S COLLABORATE",
             social: 'Visit our social media:',
             email: 'Write to us:',
+            subtitle: 'With our expert team',
             phone: 'Call us (WhatsApp):',
             phoneNumber: '(050) 278 98 88',
         },
@@ -164,6 +165,7 @@ const messages = {
         },
         contact: {
             title: 'Давайте сотрудничать',
+            subtitle: 'С нашим экспертным командой',
             social: 'Посетите наши социальные сети:',
             email: 'Напишите нам:',
             phone: 'Позвоните нам (WhatsApp):',
